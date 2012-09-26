@@ -21,14 +21,14 @@ echo $dis;
 The output is this , a full html form with proper markup. It is almost same as done in the django framework.
 
 		
-#<form name = 'form_class_form' method = 'POST' action='testing.php'>
-#	Name : <input type="password" name="name" value="password" placeholder="kingmaker" class="play" > *compulsary </br>
-#	
-#	<input type='checkbox' name= 'gender' value='1'>Male</input></br> 
-#	<input type='checkbox' name= 'gender' value='2'>Female</input></br> </br>
+<f orm name = 'form_class_form' method = 'POST' action='testing.php'>
+	Name : <i nput type="password" name="name" value="password" placeholder="kingmaker" class="play" > *compulsary </br>
 	
-#	<select name='gender_check'>
-#	<option value='1'>Male</option>
-#	<option value='2'>Female</option></select></br>
-#</form>
+	<i nput type='checkbox' name= 'gender' value='1'>Male</i nput></br> 
+	<i nput type='checkbox' name= 'gender' value='2'>Female</i nput></br> </br>
+	
+	<s elect name='gender_check'>
+	<o ption value='1'>Male</o ption>
+	<o ption value='2'>Female</ option></s elect></br>
+</f orm>
 Comments and improvements are invited. Keep on looking for better features ahead. :)
