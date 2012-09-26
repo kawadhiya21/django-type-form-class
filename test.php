@@ -7,11 +7,16 @@ $input_details['class'] = "play";
 $input_details['placeholder'] = "kingmaker";
 $input_details['text_before'] = "Name : ";
 $input_details['text_after'] = " *compulsary ";
-$form->add_input('name' , 'password' , '' /*for default values*/);
+$form->add_input('name' , 'password' , 'password',$input_details);
 
 $radio_details['1'] = 'Male';
 $radio_details['2'] = 'Female';
 $form->add_checkbox( 'gender' , $radio_details);
+
+$radio_details['1'] = 'Male';
+$radio_details['2'] = 'Female';
+$form->add_dropdown( 'gender_check' , $radio_details);
+
 
 $dis = $form->make_form();
 echo $dis;

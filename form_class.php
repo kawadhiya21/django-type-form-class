@@ -15,7 +15,7 @@ class formclass {
 		$this->final_form['start'] = "<form name = '".$form_name."' method = '".$method."' action='".$action."'>";
 		$this->final_form_keys[] = 'start';
 		}
-        
+      
 	function add_input($input_name , $input_type , $value = '' , $add_option = '') {
 		$this->final_form_keys[] = $input_name;
 		$temp= "<input type=\"".$input_type."\" name=\"".$input_name."\" value=\"".$value."\" ";				
